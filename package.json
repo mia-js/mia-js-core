@@ -1,0 +1,24 @@
+{
+  "name": "mia-js-core",
+  "description": "mia.js - Middleware API framework",
+  "keywords": [
+    "api",
+    "mobile",
+    "middleware",
+    "framework"
+  ],
+  "version": "0.8.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7factory/mia-js-core.git"
+  },
+  "dependencies": {
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "_id": "mia-js-core@0.0.1"
+}
