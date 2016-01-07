@@ -1,3 +1,7 @@
+## 0.8.2 (November 30, 2015)
+
+* Moved modules of mia-js-core to lib folder
+
 ## 0.8.1 (Sepember 18, 2015)
 
 * Updated modules mongodb, memcache and q to latest version due to memory leak
