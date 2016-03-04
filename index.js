@@ -12,6 +12,7 @@ module.exports.Logger = require('./lib/logger');
 module.exports.Request = require('./lib/request');
 module.exports.GetTranslations = require('./lib/translator');
 module.exports.Cached = require('./lib/cacheHandler');
+module.exports.RateLimiter = require('./lib/rateLimiter');
 module.exports.ModelValidator = require('./lib/modelValidator');
 
 
