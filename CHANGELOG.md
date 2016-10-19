@@ -1,3 +1,10 @@
+## 0.8.7 (October 19, 2016)
+
+* Bugfixed validation rules minLength and maxLength
+* Bugfixed required validation when empty value
+* Bugfixed error when cache not available
+* Increased default max sockets for http connections to 1024
+
 ## 0.8.6 (August 5, 2016)
 
 * Added keepAliveAgent to mia.js request module
