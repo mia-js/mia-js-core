@@ -1,3 +1,11 @@
+## 0.8.9 (December 08, 2016)
+* Added IP address Util
+
+## 0.8.8 (November 11, 2016)
+* Added follow redirects to request lib modul
+* Bugfix: mia-js-core keepAliveAgent for https returned http agent
+* Disable toobusy when maxLag is not set
+
 ## 0.8.7 (October 19, 2016)
 
 * Bugfixed validation rules minLength and maxLength
