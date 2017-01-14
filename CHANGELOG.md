@@ -1,3 +1,6 @@
+## 0.9.0 (December 19, 2016)
+* Upgraded memcached node_module to 2.2.2
+
 ## 0.8.9 (December 08, 2016)
 * Added IP address Util
 
