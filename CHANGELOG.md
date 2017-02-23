@@ -1,3 +1,8 @@
+## 0.9.1 (January 31, 2017)
+* Removed unused node_module time (not compatible with Node.js v6.9.4)
+* Modified require paths of all libraries 
+* Added force run ability to cronjob management
+
 ## 0.9.0 (December 19, 2016)
 * Upgraded memcached node_module to 2.2.2
 
