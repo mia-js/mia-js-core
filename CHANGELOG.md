@@ -1,3 +1,19 @@
+## 0.9.5 (June 23, 2017)
+* Updated compression package to version 1.6.2
+* Set http/https app to Shared lib
+* Added WebpackCompiler lib
+
+## 0.9.4 (June 1, 2017)
+* Updated mongodb package to version 2.2.27
+* Bugfixes Model Validator
+
+## 0.9.3 (May 17, 2017)
+* Added ability to only start a single cronjob by cli argument
+* Removed editor-fold from Shared library
+
+## 0.9.2 (March 13, 2017)
+* Added version support for config and models.
+
 ## 0.9.1 (January 31, 2017)
 * Removed unused node_module time (not compatible with Node.js v6.9.4)
 * Modified require paths of all libraries 
