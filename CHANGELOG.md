@@ -1,3 +1,7 @@
+## 0.9.7 (November 16, 2017)
+* Enhanced Shared lib to serve cronjob core models too
+* Added force run ability
+
 ## 0.9.5 (June 23, 2017)
 * Updated compression package to version 1.6.2
 * Set http/https app to Shared lib
