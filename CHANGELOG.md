@@ -1,3 +1,7 @@
+## 0.9.8 (November 28, 2017)
+* Extended BaseModel to get all indexes which are defined in schema
+* Fixed bug regarding use of multiple databases
+
 ## 0.9.7 (November 16, 2017)
 * Enhanced Shared lib to serve cronjob core models too
 * Added force run ability
