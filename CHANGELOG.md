@@ -1,3 +1,6 @@
+## 0.9.9 (December 19, 2017)
+* Moved webpack compiler dependencies in package.json
+
 ## 0.9.8 (November 28, 2017)
 * Extended BaseModel to get all indexes which are defined in schema
 * Fixed bug regarding use of multiple databases
