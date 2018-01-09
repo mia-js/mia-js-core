@@ -7,7 +7,7 @@
     "middleware",
     "framework"
   ],
-  "version": "0.9.9",
+  "version": "0.9.10",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/7factory/mia-js-core.git"
@@ -25,7 +25,7 @@
     "ip": "^1.1.0",
     "lodash": "^4.17.2",
     "morgan": "^1.6.1",
-    "mongodb": "^2.2.27",
+    "mongodb": "^3.0.1",
     "memcached": "^2.2.2",
     "node-jsx": "^0.13.3",
     "object-hash": "^0.5.0",
@@ -42,13 +42,17 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-server-render-middleware": "^0.1.2"
   },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-console-reporter": "^2.0.1"
+  },
   "bugs": {
     "url": "https://github.com/7factory/mia-js-core/issues"
   },
   "homepage": "https://github.com/7factory/mia-js-core#readme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node runTests.js"
   },
   "author": "7factory",
   "license": "MIT"
