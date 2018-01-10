@@ -1,3 +1,9 @@
+## 0.9.10 (January 9, 2018)
+* Upgraded mongodb package to version 3.0.1
+* Fixed bug in _callGeneric() of baseModel
+* Reactivated jasmine tests, see "npm test"
+* Refactored express deprecations
+
 ## 0.9.9 (December 19, 2017)
 * Moved webpack compiler dependencies in package.json
 
