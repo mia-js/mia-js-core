@@ -1,3 +1,6 @@
+## 1.0 (January 10, 2018)
+* Added Redis Cache support
+
 ## 0.9.10 (January 9, 2018)
 * Upgraded mongodb package to version 3.0.1
 * Fixed bug in _callGeneric() of baseModel
