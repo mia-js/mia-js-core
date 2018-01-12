@@ -1,3 +1,7 @@
+## 1.0.1 (January 12, 2018)
+* Reactivated all tests
+* Fixed minor bugs
+
 ## 1.0 (January 10, 2018)
 * Added Redis Cache support
 
