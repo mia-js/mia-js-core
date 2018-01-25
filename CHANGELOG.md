@@ -1,3 +1,6 @@
+## 1.0.2 (January 25, 2018)
+* Fixed a bug in the MongoAdapter that caused the wrong database name
+
 ## 1.0.1 (January 12, 2018)
 * Reactivated all tests
 * Fixed minor bugs
