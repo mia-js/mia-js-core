@@ -1,3 +1,6 @@
+## 1.0.3 (January 29, 2018)
+* Set Swagger-Tools back to 0.8.1 due to a bug in Swagger Tools with optional Boolean parameters in routes
+
 ## 1.0.2 (January 25, 2018)
 * Fixed a bug in the MongoAdapter that caused the wrong database name
 
