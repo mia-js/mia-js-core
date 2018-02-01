@@ -1,3 +1,6 @@
+## 1.0.5 (February 1, 2018)
+* Allow getting a value from cache only without setting when using cache handler
+
 ## 1.0.4 (February 1, 2018)
 * Added cacheTime to cache handler response. You can use this as cache control header
 * Bugfixed memberHelbers mia-js-core Utils
