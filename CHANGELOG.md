@@ -1,3 +1,7 @@
+## 1.0.4 (February 1, 2018)
+* Added cacheTime to cache handler response. You can use this as cache control header
+* Bugfixed memberHelbers mia-js-core Utils
+
 ## 1.0.3 (January 29, 2018)
 * Set Swagger-Tools back to 0.8.1 due to a bug in Swagger Tools with optional Boolean parameters in routes
 
