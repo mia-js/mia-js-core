@@ -1,3 +1,6 @@
+## 1.0.6 (February 5, 2018)
+* Added Promise helper to Mia-js Utils to convert Q promises to native and vice versa
+
 ## 1.0.5 (February 1, 2018)
 * Allow getting a value from cache only without setting when using cache handler
 
