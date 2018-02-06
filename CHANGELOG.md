@@ -1,3 +1,7 @@
+## 1.0.7 (February 6, 2018)
+* Fixed a bug in all the cache handlers with function not defined in case caching was deactivated and Cached() is used only to get a value from cache
+* Fixed baseModel.spec.js
+
 ## 1.0.6 (February 5, 2018)
 * Added Promise helper to Mia-js Utils to convert Q promises to native and vice versa
 
