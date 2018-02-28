@@ -1,3 +1,6 @@
+## 1.0.8 (February 28, 2018)
+* Added shard key check to baseModel
+
 ## 1.0.7 (February 6, 2018)
 * Fixed a bug in all the cache handlers with function not defined in case caching was deactivated and Cached() is used only to get a value from cache
 * Fixed baseModel.spec.js
