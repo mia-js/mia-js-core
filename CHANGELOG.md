@@ -1,3 +1,6 @@
+## 1.0.10 (April 11, 2018)
+* Added environment as config setting to cronjobs to restruct cronjob run to environment mode
+
 ## 1.0.9 (March 28, 2018)
 * Bugfixed request timeout
 * Bugfixed redis cache handler when cachetime is 0
