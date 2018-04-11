@@ -1,3 +1,6 @@
+## 1.0.11 (April 11, 2018)
+* Show cronjob not started message only on startup when environment restriction is set
+
 ## 1.0.10 (April 11, 2018)
 * Added environment as config setting to cronjobs to restruct cronjob run to environment mode
 
