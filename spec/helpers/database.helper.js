@@ -8,7 +8,7 @@ jasmine.database = {
     db: null,
     _init: function () {
         // Initialize config
-        Shared.initializeConfig('spec/config', 'test');
+        Shared.initializeConfig('/spec/config', 'test');
         // Set database name
         this.dbName = Shared.config('environment').defaultMongoDatabase;
         // Create new MongoDB adapter
