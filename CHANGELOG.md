@@ -1,3 +1,10 @@
+## 2.1.0 (April 23, 2018)
+* Enabled hot module replacement in vhost environments
+* Minor enhancements
+
+## 2.0.0 (April 18, 2018)
+* Updated webpack to latest version and implemented hot module replacement
+
 ## 1.0.11 (April 11, 2018)
 * Show cronjob not started message only on startup when environment restriction is set
 
