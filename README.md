@@ -8,4 +8,6 @@ Focus of mia.js is to work as middleware backend for mobile apps to have all you
 Passthrough, aggregate or modify other external apis or create your own ones in mia.js and provide them bundled as your project api.
 Use multiple project folders to keep track of all your apis and connect them by loose coupling of ids. Mia.js provides predefined functionality like user management, device profile management, session handling, authorization layers or notification handlers (push, email). There is also an iOS and Android SDK available to work with mia.js.
 
+You can use it to serve isomorphic frontend apps too. Thanks to webpack you can even use hot module replacement right in the server which will speed up your development pace.
+
 This is a core module of mia.js. See docs of [mia.js](https://github.com/7factory/mia-js) project.
