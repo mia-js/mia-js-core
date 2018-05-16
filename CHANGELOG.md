@@ -1,3 +1,6 @@
+## 2.1.1 (May 8, 2018)
+* Minor enhancements and bugfixes regarding hot module replacement
+
 ## 2.1.0 (April 23, 2018)
 * Enabled hot module replacement in vhost environments
 * Minor enhancements
