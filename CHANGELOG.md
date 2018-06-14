@@ -1,3 +1,6 @@
+## 2.1.2 (May 28, 2018)
+* Fixed configuration comparison in BaseCronJob if there are NaNs
+
 ## 2.1.1 (May 8, 2018)
 * Minor enhancements and bugfixes regarding hot module replacement
 
