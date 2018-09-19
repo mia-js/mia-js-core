@@ -11,3 +11,15 @@ Use multiple project folders to keep track of all your apis and connect them by 
 You can use it to serve isomorphic frontend apps too. Thanks to webpack you can even use hot module replacement right in the server which will speed up your development pace.
 
 This is a core module of mia.js. See docs of [mia.js](https://github.com/7factory/mia-js) project.
+
+# Crons
+
+In order to run the middleware with specific cron taks passed them as fourth argument like **cron=nameOfFirst,nameOfSecond,nameOfThird**
+example:
+
+```bash
+node server.js local cron=DataManager-ProcessData, DataManager-ProcessChange
+```
+
+If no cron names is passed the middleware will start all possible crontasks.
+If you want to turn off all crons either pass **cron=off** to arguments or set config  `environment.cronJobs.enabled`  to `true`
