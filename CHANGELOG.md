@@ -1,3 +1,7 @@
+## 2.1.4 (September 21, 2018)
+* Update cron package to latest version (1.4.1) which fixes timing issue with the same cronjob on multiple instances within the same second
+* Improve baseCronJob to delay stopping of cronjobs till the next second 
+
 ## 2.1.2 (May 28, 2018)
 * Fixed configuration comparison in BaseCronJob if there are NaNs
 
