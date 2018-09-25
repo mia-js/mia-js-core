@@ -1,3 +1,9 @@
+## 2.2.0
+* Skip indexing Database on test env and by setting the env var skipDatabaseIndexing.
+* Disable all crons by passing second arg crons or cron=(off', 'disabled', '0', 'false', 'disable')
+* Specify multiple crons to be started by passing their names eparated by ','. cron=First,second,third
+
+
 ## 2.1.2 (May 28, 2018)
 * Fixed configuration comparison in BaseCronJob if there are NaNs
 

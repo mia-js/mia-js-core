@@ -22,4 +22,4 @@ node server.js local cron=DataManager-ProcessData, DataManager-ProcessChange
 ```
 
 If no cron names is passed the middleware will start all possible crontasks.
-If you want to turn off all crons either pass **cron=off** to arguments or set config  `environment.cronJobs.enabled`  to `true`
+If you want to turn off all crons either pass **cron=off** to arguments or set config  `environment.cronJobs.enabled`  to `false`
