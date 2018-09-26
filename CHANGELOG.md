@@ -1,13 +1,12 @@
 ## 2.2.0
-* Skip indexing Database on test env and by setting the env var skipDatabaseIndexing.
-* Disable all crons by passing second arg crons or cron=(off', 'disabled', '0', 'false', 'disable')
-* Specify multiple crons to be started by passing their names eparated by ','. cron=First,second,third
-
+* Skip indexing Database on test env and by setting the env var skipDatabaseIndexing
+* Disable all crons by passing arg 'nocron'
+* Specify multiple crons to be started by passing their names separated by ','. cron=First,second,third
+* CacheHandler will return given lifetime on first call
 
 ## 2.1.4 (September 21, 2018)
 * Update cron package to latest version (1.4.1) which fixes timing issue with the same cronjob on multiple instances within the same second
 * Improve baseCronJob to delay stopping of cronjobs till the next second 
-
 
 ## 2.1.2 (May 28, 2018)
 * Fixed configuration comparison in BaseCronJob if there are NaNs
