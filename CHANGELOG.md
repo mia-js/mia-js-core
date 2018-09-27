@@ -3,6 +3,9 @@
 * Disable all crons by passing arg 'nocron'
 * Specify multiple crons to be started by passing their names separated by ','. cron=First,second,third
 * CacheHandler will return given lifetime on first call
+* Fixed bug with closing database connection in mongoAdapter
+* Enhanced Shared to hold MongoClient instances as well as database connections
+* Refactored q.fail() to .catch(); Removed q.done()
 
 ## 2.1.4 (September 21, 2018)
 * Update cron package to latest version (1.4.1) which fixes timing issue with the same cronjob on multiple instances within the same second

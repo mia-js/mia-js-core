@@ -29,6 +29,7 @@ module.exports = {
             retry: 500
         }
     },*/
+    skipDatabaseIndexingOnNewCollections: true,
     defaultMongoDatabase: 'miaCoreTest',
     mongoDatabases: {
         miaCoreTest: {
