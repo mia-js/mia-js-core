@@ -2,44 +2,55 @@ var Q = require('q');
 var Shared = require('../../lib/shared');
 var MongoAdapter = require('../../lib/dbAdapters').MongoAdapter;
 
-jasmine.database = {
-    adapter: null,
-    dbName: null,
-    db: null,
-    _init: function () {
+function thisModule() {
+    var self = this;
+    self.adapter = null;
+    self.dbName = null;
+    self.db = null;
+
+    var _init = function () {
         // Initialize config
         Shared.initializeConfig('/spec/config', 'test');
         // Set database name
-        this.dbName = Shared.config('environment').defaultMongoDatabase;
+        self.dbName = Shared.config('environment').defaultMongoDatabase;
         // Create new MongoDB adapter
-        this.adapter = new MongoAdapter();
-    },
-    connect: function () {
+        self.adapter = new MongoAdapter();
+    };
+
+    self.connect = function () {
         if (!this.adapter) {
-            this._init();
+            _init();
         }
-        return this.adapter.connect(this.dbName)
+        return self.adapter.connect(self.dbName)
             .then(function (db) {
-                this.db = db;
+                self.db = db;
                 return db;
             });
-    },
-    close: function () {
-        if (!this.db) {
+    };
+
+    self.close = function () {
+        if (!self.db) {
             return Q();
         }
-        return this.adapter.close(this.dbName, this.db);
-    },
-    drop: function () {
-        if (!this.db) {
-            this.connect();
+        var dbConnection = Shared.dbconnection(self.dbName);
+        return self.adapter.close(self.dbName, dbConnection["client"]);
+    };
+
+    self.drop = function () {
+        if (!self.db) {
+            self.connect();
         }
         var deferred = Q.defer();
-        return this.db.dropDatabase(function (error, result) {
+        self.db.dropDatabase(function (error, result) {
             if (error) {
                 return deferred.reject(error);
             }
             return deferred.resolve(result);
         });
-    }
-};
+        return deferred.promise;
+    };
+
+    return self;
+}
+
+jasmine.database = new thisModule();
