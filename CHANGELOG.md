@@ -1,3 +1,6 @@
+## 2.2.1
+* Added generic custom Error class which behaves like the plain error objects we're using
+
 ## 2.2.0
 * Skip indexing Database on test env and by setting the env var skipDatabaseIndexing
 * Disable all crons by passing arg 'nocron'
