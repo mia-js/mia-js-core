@@ -1,3 +1,7 @@
+## 2.2.2
+* Changed handling of cronjob execution if multiple cronjob identifiers given by cmd argument
+* Set config option "forceRun" if cron jobs are executed immediately
+
 ## 2.2.1
 * Added generic custom Error class which behaves like the plain error objects we're using
 
