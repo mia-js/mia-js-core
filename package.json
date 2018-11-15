@@ -33,7 +33,6 @@
     "object-hash": "0.5.0",
     "q": "1.5.1",
     "swagger-parser": "^6.0.2",
-    "swagger-tools": "^0.10.4",
     "swagger-ui": "^2.2.10",
     "toobusy-js": "0.4.3",
     "trycatch": "1.5.21",
