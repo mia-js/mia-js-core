@@ -1,3 +1,6 @@
+## 2.2.3
+* Update Swagger Docs
+
 ## 2.2.2
 * Changed handling of cronjob execution if multiple cronjob identifiers given by cmd argument
 * Set config option "forceRun" if cron jobs are executed immediately
