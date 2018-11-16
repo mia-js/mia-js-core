@@ -1,3 +1,6 @@
+## 2.2.4
+* Fixed performance issue with indexOf() in swaggerDocs.js
+
 ## 2.2.3
 * Update Swagger Docs
 
