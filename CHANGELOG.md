@@ -1,3 +1,7 @@
+## 2.2.5
+* Added JSON logging option to environment config
+* Bugfix added cache control to swagger docs
+
 ## 2.2.4
 * Fixed performance issue with indexOf() in swaggerDocs.js
 
