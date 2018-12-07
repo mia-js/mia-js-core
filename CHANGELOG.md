@@ -1,3 +1,6 @@
+## 2.2.6
+* Added functionality to stop running cron job
+
 ## 2.2.5
 * Added JSON logging option to environment config
 * Bugfix added cache control to swagger docs
