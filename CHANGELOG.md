@@ -1,3 +1,9 @@
+## 2.2.8
+* Added force option to cache handler
+
+## 2.2.7
+* Audit Fix
+
 ## 2.2.6
 * Added functionality to stop running cron job
 
