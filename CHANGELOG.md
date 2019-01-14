@@ -1,3 +1,6 @@
+## 2.2.9
+* Replace TryCatch Module with try catch
+
 ## 2.2.8
 * Added force option to cache handler
 
