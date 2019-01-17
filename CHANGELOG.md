@@ -1,3 +1,6 @@
+## 2.3.0
+* WebpackCompiler improvement regarding publicPath
+
 ## 2.2.9
 * Replace TryCatch Module with try catch
 
