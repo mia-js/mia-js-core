@@ -1,3 +1,6 @@
+## 2.3.1
+* Bugfix WebpackCompiler publicPath
+
 ## 2.3.0
 * WebpackCompiler improvement regarding publicPath
 
