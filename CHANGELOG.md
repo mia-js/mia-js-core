@@ -1,3 +1,7 @@
+## 2.3.2
+* Enabled HTTPS in webpack HMR mode
+* Fixed bson vulnerability
+
 ## 2.3.1
 * Bugfix WebpackCompiler publicPath
 
