@@ -1,3 +1,6 @@
+## 2.3.3 (January 23, 2019)
+* Another enhancement regarding publicPath in WebpackCompiler Lib
+
 ## 2.3.2
 * Enabled HTTPS in webpack HMR mode
 * Fixed bson vulnerability
