@@ -1,3 +1,7 @@
+## 2.3.4 (January 31, 2019)
+* Fixed error handling in RoutesHandler
+* Fixed env bug in WebpackCompiler
+
 ## 2.3.3 (January 23, 2019)
 * Another enhancement regarding publicPath in WebpackCompiler Lib
 
