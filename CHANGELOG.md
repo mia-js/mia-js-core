@@ -1,3 +1,7 @@
+## 2.4.0 (February 20, 2019)
+* Implemented environment config switch to de/activate Swagger docs
+* Await initialization of individual projects during server start
+
 ## 2.3.4 (January 31, 2019)
 * Fixed error handling in RoutesHandler
 * Fixed env bug in WebpackCompiler
