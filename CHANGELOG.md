@@ -1,3 +1,6 @@
+## 2.4.1 (February 22, 2019)
+* Fixed log output if dead servers were killed
+
 ## 2.4.0 (February 20, 2019)
 * Implemented environment config switch to de/activate Swagger docs
 * Await initialization of individual projects during server start
