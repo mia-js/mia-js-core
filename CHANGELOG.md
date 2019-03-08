@@ -1,3 +1,6 @@
+## 2.4.2 (February 22, 2019)
+* Added redir for swagger host if defined in env config
+
 ## 2.4.1 (February 22, 2019)
 * Fixed log output if dead servers were killed
 
