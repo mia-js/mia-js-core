@@ -1,3 +1,6 @@
+## 2.4.4 (March 18, 2019)
+* Bugfix swagger mode option
+
 ## 2.4.3 (March 18, 2019)
 * Allow route forwarding
 * Allow different options to enable/disable swagger mode
