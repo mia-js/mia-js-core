@@ -1,3 +1,7 @@
+## 2.4.3 (March 18, 2019)
+* Allow route forwarding
+* Allow different options to enable/disable swagger mode
+
 ## 2.4.2 (February 22, 2019)
 * Added redir for swagger host if defined in env config
 
