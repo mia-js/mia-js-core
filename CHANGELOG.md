@@ -1,3 +1,6 @@
+## 2.4.5 (March 22, 2019)
+* Bugfix initialize routes: Don't skip setup of default error handler if swagger is disabled
+
 ## 2.4.4 (March 18, 2019)
 * Bugfix swagger mode option
 
