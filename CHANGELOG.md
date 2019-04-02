@@ -1,3 +1,8 @@
+## 2.4.6 (April 2, 2019)
+* Consolidated development and build process of frontend projects and HMR devServer
+* Fixed security vulnerability with js-yaml
+* Fixed race condition in cron jobs test
+
 ## 2.4.5 (March 22, 2019)
 * Bugfix initialize routes: Don't skip setup of default error handler if swagger is disabled
 
