@@ -1,3 +1,6 @@
+## 2.4.7 (April 9, 2019)
+* Added missing function 'undotize' to MemberHelpers
+
 ## 2.4.6 (April 2, 2019)
 * Consolidated development and build process of frontend projects and HMR devServer
 * Fixed security vulnerability with js-yaml
