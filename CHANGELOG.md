@@ -1,3 +1,6 @@
+## 2.4.8 (April 16, 2019)
+* Fixed security vulnerabilities
+
 ## 2.4.7 (April 9, 2019)
 * Added missing function 'undotize' to MemberHelpers
 
