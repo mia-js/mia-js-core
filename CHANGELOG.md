@@ -1,3 +1,6 @@
+## 2.4.9 (May 2, 2019)
+* Implemented ability to hide route params from Swagger documentation
+
 ## 2.4.8 (April 16, 2019)
 * Fixed security vulnerabilities
 
