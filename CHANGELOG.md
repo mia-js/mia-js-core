@@ -1,3 +1,6 @@
+## 2.4.10 (May 14, 2019)
+* Bugfix CORS header
+
 ## 2.4.9 (May 2, 2019)
 * Implemented ability to hide route params from Swagger documentation
 
