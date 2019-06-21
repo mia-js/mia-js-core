@@ -1,3 +1,6 @@
+## 2.4.11 (June 21, 2019)
+Randomize generic-cronJobManagerJob run time
+
 ## 2.4.10 (May 14, 2019)
 * Bugfix CORS header
 
