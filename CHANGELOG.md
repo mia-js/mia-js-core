@@ -1,3 +1,6 @@
+## 2.4.13 (July 1, 2019)
+* Enhanced default error logging
+
 ## 2.4.12 (June 26, 2019)
 * Changed redis retry strategy
 
