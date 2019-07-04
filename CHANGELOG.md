@@ -1,3 +1,6 @@
+## 2.4.14 (July 4, 2019)
+* Enhanced error logging for single cron job execution
+
 ## 2.4.13 (July 1, 2019)
 * Enhanced default error logging
 
@@ -101,7 +104,7 @@
 
 ## 2.1.4 (September 21, 2018)
 * Update cron package to latest version (1.4.1) which fixes timing issue with the same cronjob on multiple instances within the same second
-* Improve baseCronJob to delay stopping of cronjobs till the next second 
+* Improve baseCronJob to delay stopping of cronjobs till the next second
 
 ## 2.1.2 (May 28, 2018)
 * Fixed configuration comparison in BaseCronJob if there are NaNs
@@ -191,7 +194,7 @@
 
 ## 0.9.1 (January 31, 2017)
 * Removed unused node_module time (not compatible with Node.js v6.9.4)
-* Modified require paths of all libraries 
+* Modified require paths of all libraries
 * Added force run ability to cronjob management
 
 ## 0.9.0 (December 19, 2016)
