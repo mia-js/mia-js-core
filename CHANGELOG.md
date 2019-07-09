@@ -1,3 +1,6 @@
+## 2.4.15 (July 9, 2019)
+* Added replaceOne() to BaseModel
+
 ## 2.4.14 (July 4, 2019)
 * Enhanced error logging for single cron job execution
 
