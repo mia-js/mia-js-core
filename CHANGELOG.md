@@ -1,3 +1,6 @@
+## 2.4.16 (July 10, 2019)
+* Enhanced error handling redis
+
 ## 2.4.15 (July 9, 2019)
 * Added replaceOne() to BaseModel
 
