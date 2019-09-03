@@ -26,7 +26,7 @@
     "hyperquest-timeout": "1.1.0",
     "ioredis": "4.11.1",
     "ip": "1.1.5",
-    "lodash": "4.17.11",
+    "lodash": "4.17.15",
     "memcached": "2.2.2",
     "mongodb": "3.0.1",
     "morgan": "1.9.1",
