@@ -1,3 +1,7 @@
+## 2.4.17 (August 31, 2019)
+* Fixed http redirect to https
+* Use configured path from output path and output file name when purging prior bundles in WebpackCompiler
+
 ## 2.4.16 (July 10, 2019)
 * Enhanced error handling redis
 
