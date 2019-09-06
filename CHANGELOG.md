@@ -1,3 +1,6 @@
+## 2.4.19 (September 6, 2019)
+* Fixed bug with https redirection
+
 ## 2.4.18 (September 5, 2019)
 * Added new http to https redirect options (redirFallbackHostname, redirHostname & redirPort)
 
