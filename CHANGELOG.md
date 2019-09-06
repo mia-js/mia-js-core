@@ -1,3 +1,6 @@
+## 2.4.18 (September 5, 2019)
+* Added new http to https redirect options (redirFallbackHostname, redirHostname & redirPort)
+
 ## 2.4.17 (August 31, 2019)
 * Fixed http redirect to https
 * Use configured path from output path and output file name when purging prior bundles in WebpackCompiler
