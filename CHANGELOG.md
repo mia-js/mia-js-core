@@ -1,3 +1,6 @@
+## 2.4.20 (September 11, 2019)
+* Added setting of custom server options for HTTP & HTTPS server
+
 ## 2.4.19 (September 6, 2019)
 * Fixed bug with https redirection
 
