@@ -1,3 +1,11 @@
+## 2.5.0 (October 7, 2019)
+* Modified display of http/s server options at startup
+* Added new route option "parameterOverflow" to check if a route was given more than the configured parameters
+* Updated Swagger-UI and parser to the latest versions
+* Updated api specs to OpenAPI version 3.0.0
+* Fixed all npm vulnerabilities
+* Improvements to WebpackCompiler: Multiple bundles can now be compiled per project; responsibility to delete bundle files is now with the bundle configuration
+
 ## 2.4.20 (September 11, 2019)
 * Added setting of custom server options for HTTP & HTTPS server
 
