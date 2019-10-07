@@ -1,0 +1,395 @@
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16"/>
+    <style>
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #f0f0f0;
+        }
+
+
+        /** HEADER **/
+
+        header:before {
+            content: "";
+            background-color: #27848E;
+            height: 70px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        header #logo {
+            position: fixed;
+            top: 35px;
+            right: 40px;
+            z-index: 102;
+            transform: translateY(-50%);
+        }
+
+        header #logo img {
+            height: 48px;
+            background-color: rgba(40, 134, 144, 0.4)
+        }
+
+        /**  INCREASE WRAPPER BLOC PADDING **/
+
+        #swagger-ui.api-platform .wrapper {
+            padding: 0px 60px;
+        }
+
+
+        /**  INFORMATIONS BLOC **/
+
+        #swagger-ui.api-platform .information-container.wrapper {
+            margin: 0;
+            padding: 10px 0 0;
+            width: 100%;
+            max-width: 100%;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 30px;
+        }
+
+        #swagger-ui.api-platform .info .title {
+            color: #3caab5;
+        }
+
+        #swagger-ui.api-platform .info {
+            width: 100%;
+            max-width: 1460px;
+            padding: 0px 50px;
+            margin: 0px auto;
+        }
+
+        /**  METHOD BLOCKS **/
+
+        #swagger-ui.api-platform .opblock.opblock-get .opblock-summary-method {
+            background-color: #3CAAB5;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-get .table-container,
+        #swagger-ui.api-platform .opblock.opblock-get .responses-inner {
+            background-color: rgba(60, 170, 181, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-put .opblock-summary-method {
+            background-color: #E6C229;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-put .table-container,
+        #swagger-ui.api-platform .opblock.opblock-put .responses-inner {
+            background-color: rgba(230, 194, 41, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-post .opblock-summary-method {
+            background-color: #78BC61;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-post .table-container,
+        #swagger-ui.api-platform .opblock.opblock-post .responses-inner {
+            background-color: rgba(120, 188, 97, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-delete .opblock-summary-method {
+            background-color: #ED6A5A;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-delete .table-container,
+        #swagger-ui.api-platform .opblock.opblock-delete .responses-inner {
+            background-color: rgba(237, 106, 90, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-deprecated .opblock-summary-method {
+            background-color: #ebebeb;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-deprecated .table-container,
+        #swagger-ui.api-platform .opblock.opblock-deprecated .responses-inner {
+            background-color: rgba(235, 235, 235, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-get .opblock-summary {
+            border-color: #3CAAB5;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-put .opblock-summary {
+            border-color: #E6C229;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-post .opblock-summary {
+            border-color: #78BC61;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-delete .opblock-summary {
+            border-color: #ED6A5A;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-deprecated .opblock-summary {
+            border-color: #ebebeb;
+        }
+
+        #swagger-ui.api-platform .opblock-summary-method {
+            border-radius: 0;
+            padding: 10px;
+        }
+
+        #swagger-ui.api-platform .opblock-summary {
+            padding: 0;
+        }
+
+        #swagger-ui.api-platform .opblock-tag {
+            padding: 5px 0;
+            margin: 0 0 10px;
+        }
+
+        #swagger-ui.api-platform .opblock-tag:hover {
+            background-color: rgba(0, 0, 0, .1);
+            transform: scale(1.01);
+        }
+
+        #swagger-ui.api-platform .opblock-section-header, #swagger-ui.api-platform .opblock.opblock-get .opblock-section-header {
+            background-color: rgba(60, 170, 181, 0.1);
+            box-shadow: none;
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-post .opblock-section-header {
+            background-color: rgba(120, 188, 97, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-put .opblock-section-header {
+            background-color: rgba(230, 194, 41, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-delete .opblock-section-header {
+            background-color: rgba(237, 106, 90, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-deprecated .opblock-section-header {
+            background-color: rgba(235, 235, 235, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock {
+            border-radius: 0;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            margin: 0 0 10px;
+            padding: 0;
+            border: none !important;
+        }
+
+        #swagger-ui .topbar {
+            display: none;
+        }
+
+        /** FORMATS **/
+
+        #formats {
+            text-align: right;
+            font-family: Open Sans, sans-serif;
+            width: 100%;
+            max-width: 1460px;
+            padding: 0px 60px;
+            margin: 0 auto;
+        }
+
+
+        /** BUTTONS **/
+
+        #swagger-ui.api-platform .btn.execute {
+            background-color: #3CAAB5;
+            border-color: #3CAAB5;
+            animation: none;
+            transition: all ease 0.3s;
+        }
+
+        #swagger-ui.api-platform .btn.execute:hover {
+            background-color: #288690;
+            border-color: #288690;
+        }
+
+        #swagger-ui.api-platform .execute-wrapper {
+            text-align: center;
+        }
+
+        #swagger-ui.api-platform .execute-wrapper .btn {
+            width: auto;
+            padding: 10px 40px;
+        }
+
+        #swagger-ui.api-platform .btn-group {
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #swagger-ui.api-platform .btn-group .btn {
+            padding: 10px 40px;
+        }
+
+        #swagger-ui.api-platform .btn {
+            transition: all ease 0.2s;
+            box-shadow: none;
+            background-color: #f7f7f7
+        }
+
+        #swagger-ui.api-platform .btn:hover {
+            background-color: rgba(65, 68, 78, 0.1);
+            border-color: transparent;
+        }
+
+        #swagger-ui.api-platform .btn.cancel:hover {
+            background-color: rgba(237, 106, 90, 0.1);
+        }
+
+        #swagger-ui.api-platform .btn.authorize:hover {
+            background-color: rgba(120, 188, 97, 0.1);
+        }
+
+        #swagger-ui.api-platform select {
+            box-shadow: none;
+            cursor: pointer;
+        }
+
+
+        /** FIX TABS SEPARATOR **/
+
+        #swagger-ui.api-platform .tab li:first-of-type:after {
+            content: none;
+        }
+
+        #swagger-ui.api-platform .tab li {
+            padding: 0px 5px;
+            border-right: 1px solid rgba(0, 0, 0, .2);
+        }
+
+        #swagger-ui.api-platform .tab li:last-of-type {
+            border-right: none;
+        }
+
+
+        /** REMOVE HIGHLIGHTS FOCUS INPUTS **/
+
+        #swagger-ui.api-platform input:focus,
+        #swagger-ui.api-platform select:focus,
+        #swagger-ui.api-platform textarea:focus,
+        #swagger-ui.api-platform button:focus {
+            outline: none;
+        }
+
+
+        /** REMOVE TITILIUM FONT **/
+
+        .swagger-ui .opblock-tag,
+        .swagger-ui .opblock .opblock-section-header label,
+        .swagger-ui .opblock .opblock-section-header h4,
+        .swagger-ui .opblock .opblock-summary-method,
+        .swagger-ui .tab li,
+        .swagger-ui .scheme-container .schemes > label,
+        .swagger-ui .loading-container .loading:after,
+        .swagger-ui .btn,
+        .swagger-ui .btn.cancel,
+        .swagger-ui select,
+        .swagger-ui label,
+        .swagger-ui .dialog-ux .modal-ux-content h4,
+        .swagger-ui .dialog-ux .modal-ux-header h3,
+        .swagger-ui section.models h4,
+        .swagger-ui section.models h5,
+        .swagger-ui .model-title,
+        .swagger-ui .parameter__name,
+        .swagger-ui .topbar a,
+        .swagger-ui .topbar .download-url-wrapper .download-url-button,
+        .swagger-ui .info .title small pre,
+        .swagger-ui .scopes h2,
+        .swagger-ui .errors-wrapper hgroup h4 {
+            font-family: Open Sans, sans-serif !important;
+        }
+    </style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="position:absolute;width:0;height:0">
+    <defs>
+        <symbol viewBox="0 0 20 20" id="unlocked">
+            <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+        </symbol>
+
+        <symbol viewBox="0 0 20 20" id="locked">
+            <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+        </symbol>
+
+        <symbol viewBox="0 0 20 20" id="close">
+            <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+        </symbol>
+
+        <symbol viewBox="0 0 20 20" id="large-arrow">
+            <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+        </symbol>
+
+        <symbol viewBox="0 0 20 20" id="large-arrow-down">
+            <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+        </symbol>
+
+
+        <symbol viewBox="0 0 24 24" id="jump-to">
+            <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+        </symbol>
+
+        <symbol viewBox="0 0 24 24" id="expand">
+            <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+        </symbol>
+
+    </defs>
+</svg>
+
+<div id="swagger-ui" class="api-platform"></div>
+
+<script src="./swagger-ui-bundle.js"></script>
+<script src="./swagger-ui-standalone-preset.js"></script>
+<script>
+    window.onload = function () {
+        // Build a system
+        window.ui = SwaggerUIBundle({
+            url: window.location.protocol + '//' + window.location.host + '/api-docs',
+            dom_id: '#swagger-ui',
+            deepLinking: true,
+            docExpansion: 'none',
+            presets: [
+                SwaggerUIBundle.presets.apis,
+                SwaggerUIStandalonePreset
+            ],
+            plugins: [
+                SwaggerUIBundle.plugins.DownloadUrl
+            ],
+            layout: "StandaloneLayout"
+        });
+    }
+</script>
+</body>
+
+</html>
