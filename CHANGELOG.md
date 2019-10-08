@@ -1,3 +1,6 @@
+## 2.5.1 (October 8, 2019)
+* Bugfix additional swagger options
+
 ## 2.5.0 (October 7, 2019)
 * Modified display of http/s server options at startup
 * Added new route option "parameterOverflow" to check if a route was given more than the configured parameters
