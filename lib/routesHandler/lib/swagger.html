@@ -27,7 +27,6 @@
             background: #f0f0f0;
         }
 
-
         /** HEADER **/
 
         header:before {
@@ -55,14 +54,13 @@
             background-color: rgba(40, 134, 144, 0.4)
         }
 
-        /**  INCREASE WRAPPER BLOC PADDING **/
+        /**  INCREASE WRAPPER BLOCK PADDING **/
 
         #swagger-ui.api-platform .wrapper {
-            padding: 0px 60px;
+            padding: 0 60px;
         }
 
-
-        /**  INFORMATIONS BLOC **/
+        /**  INFORMATIONS BLOCK **/
 
         #swagger-ui.api-platform .information-container.wrapper {
             margin: 0;
@@ -81,8 +79,8 @@
         #swagger-ui.api-platform .info {
             width: 100%;
             max-width: 1460px;
-            padding: 0px 50px;
-            margin: 0px auto;
+            padding: 0 50px;
+            margin: 0 auto;
         }
 
         /**  METHOD BLOCKS **/
@@ -216,6 +214,12 @@
             margin: 0 auto;
         }
 
+        /** INPUTS **/
+
+        .swagger-ui .parameters-col_description input[type=text] {
+            width: 100%;
+            max-width: none;
+        }
 
         /** BUTTONS **/
 
@@ -274,7 +278,6 @@
             cursor: pointer;
         }
 
-
         /** FIX TABS SEPARATOR **/
 
         #swagger-ui.api-platform .tab li:first-of-type:after {
@@ -282,14 +285,13 @@
         }
 
         #swagger-ui.api-platform .tab li {
-            padding: 0px 5px;
+            padding: 0 5px;
             border-right: 1px solid rgba(0, 0, 0, .2);
         }
 
         #swagger-ui.api-platform .tab li:last-of-type {
             border-right: none;
         }
-
 
         /** REMOVE HIGHLIGHTS FOCUS INPUTS **/
 
@@ -299,7 +301,6 @@
         #swagger-ui.api-platform button:focus {
             outline: none;
         }
-
 
         /** REMOVE TITILIUM FONT **/
 
@@ -326,6 +327,10 @@
         .swagger-ui .scopes h2,
         .swagger-ui .errors-wrapper hgroup h4 {
             font-family: Open Sans, sans-serif !important;
+        }
+
+        .swagger-ui .opblock .opblock-summary-path {
+            font-family: Source Code Pro, monospace !important;
         }
     </style>
 </head>
