@@ -1,3 +1,8 @@
+## 2.5.2 (October 13, 2019)
+* Hide swagger metrics when re-initializing routes (only with HMR)
+* Added webpack progress bar to build process of development server
+* Enhanced handling of 'hmr' argument, you know can hmr specific bundles
+
 ## 2.5.1 (October 8, 2019)
 * Bugfix additional swagger options
 
