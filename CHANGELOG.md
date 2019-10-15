@@ -1,3 +1,6 @@
+## 2.5.3 (October 15, 2019)
+* Made minor improvements to Swagger-UI
+
 ## 2.5.2 (October 13, 2019)
 * Hide swagger metrics when re-initializing routes (only with HMR)
 * Added webpack progress bar to build process of development server
