@@ -1,3 +1,7 @@
+## 2.5.4 (October 18, 2019)
+* Changed implementation of 'extend' in controller preconditions
+* Some more improvements to Swagger-UI especially regarding readability
+
 ## 2.5.3 (October 15, 2019)
 * Made minor improvements to Swagger-UI
 
