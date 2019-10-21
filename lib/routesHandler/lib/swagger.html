@@ -94,6 +94,10 @@
             background-color: rgba(60, 170, 181, 0.1);
         }
 
+        #swagger-ui.api-platform .opblock.opblock-get .table-container tr:nth-child(odd) {
+            background-color: rgba(60, 170, 181, 0.15);
+        }
+
         #swagger-ui.api-platform .opblock.opblock-put .opblock-summary-method {
             background-color: #E6C229;
         }
@@ -101,6 +105,10 @@
         #swagger-ui.api-platform .opblock.opblock-put .table-container,
         #swagger-ui.api-platform .opblock.opblock-put .responses-inner {
             background-color: rgba(230, 194, 41, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-put .table-container tr:nth-child(odd) {
+            background-color: rgba(230, 194, 41, 0.15);
         }
 
         #swagger-ui.api-platform .opblock.opblock-post .opblock-summary-method {
@@ -112,6 +120,10 @@
             background-color: rgba(120, 188, 97, 0.1);
         }
 
+        #swagger-ui.api-platform .opblock.opblock-post .table-container tr:nth-child(odd) {
+            background-color: rgba(120, 188, 97, 0.15);
+        }
+
         #swagger-ui.api-platform .opblock.opblock-delete .opblock-summary-method {
             background-color: #ED6A5A;
         }
@@ -121,6 +133,10 @@
             background-color: rgba(237, 106, 90, 0.1);
         }
 
+        #swagger-ui.api-platform .opblock.opblock-delete .table-container tr:nth-child(odd) {
+            background-color: rgba(237, 106, 90, 0.15);
+        }
+
         #swagger-ui.api-platform .opblock.opblock-deprecated .opblock-summary-method {
             background-color: #ebebeb;
         }
@@ -128,6 +144,10 @@
         #swagger-ui.api-platform .opblock.opblock-deprecated .table-container,
         #swagger-ui.api-platform .opblock.opblock-deprecated .responses-inner {
             background-color: rgba(235, 235, 235, 0.1);
+        }
+
+        #swagger-ui.api-platform .opblock.opblock-deprecated .table-container tr:nth-child(odd) {
+            background-color: rgba(235, 235, 235, 0.15);
         }
 
         #swagger-ui.api-platform .opblock.opblock-get .opblock-summary {
@@ -219,6 +239,42 @@
         .swagger-ui .parameters-col_description input[type=text] {
             width: 100%;
             max-width: none;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #fff;
+        }
+
+        :disabled::-webkit-input-placeholder {
+            color: #fafafa;
+        }
+
+        :-moz-placeholder {
+            color: #fff;
+            opacity: 1;
+        }
+
+        :disabled:-moz-placeholder {
+            color: #fafafa;
+            opacity: 1;
+        }
+
+        ::-moz-placeholder {
+            color: #fff;
+            opacity: 1;
+        }
+
+        :disabled::-moz-placeholder {
+            color: #fafafa;
+            opacity: 1;
+        }
+
+        :-ms-input-placeholder {
+            color: #fff;
+        }
+
+        :disabled:-ms-input-placeholder {
+            color: #fff;
         }
 
         /** BUTTONS **/
@@ -331,6 +387,27 @@
 
         .swagger-ui .opblock .opblock-summary-path {
             font-family: Source Code Pro, monospace !important;
+        }
+
+        .swagger-ui .table-container {
+            padding: 0;
+        }
+
+        .swagger-ui .table-container tr th {
+            padding: 12px 20px;
+        }
+
+        .swagger-ui .table-container tr td:first-of-type,
+        .swagger-ui .table-container tr td:last-of-type {
+            padding: 20px;
+        }
+
+        .swagger-ui .table-container tr td {
+            padding: 0 20px;
+        }
+
+        .swagger-ui .markdown p, .swagger-ui .markdown pre, .swagger-ui .renderedMarkdown p, .swagger-ui .renderedMarkdown pre {
+            margin: 0;
         }
     </style>
 </head>
