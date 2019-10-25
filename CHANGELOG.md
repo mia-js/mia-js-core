@@ -1,3 +1,8 @@
+## 2.5.5 (October 25, 2019)
+* Fixed route methods deprecation warnings
+* Fixed preconditions parsing for default and virtual
+* Removed concatenation of '(deprecated)' to SwaggerUI project name
+
 ## 2.5.4 (October 18, 2019)
 * Changed implementation of 'extend' in controller preconditions
 * Some more improvements to Swagger-UI especially regarding readability
