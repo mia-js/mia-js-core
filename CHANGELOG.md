@@ -1,3 +1,7 @@
+## 2.5.6 (November 27, 2019)
+* Moved dead server interval setting (cron jobs) to environment configuration
+* Added debug log to doHeartbeat func
+ 
 ## 2.5.5 (October 25, 2019)
 * Fixed route methods deprecation warnings
 * Fixed preconditions parsing for default and virtual
