@@ -1,10 +1,14 @@
+## 2.6.0 (November 28, 2019)
+* Upgraded mongodb package from version 3.0.1 to 3.3.4
+* Possibility to add index options to model attribute 
+
 ## 2.5.7 (November 28, 2019)
 * Increased default dead server interval
 
 ## 2.5.6 (November 27, 2019)
 * Moved dead server interval setting (cron jobs) to environment configuration
 * Added debug log to doHeartbeat func
- 
+
 ## 2.5.5 (October 25, 2019)
 * Fixed route methods deprecation warnings
 * Fixed preconditions parsing for default and virtual

@@ -42,7 +42,8 @@ module.exports = {
                 noDelay: true,
                 connectTimeoutMS: 0,
                 socketTimeoutMS: 0,
-                autoReconnect: true
+                autoReconnect: true,
+                useUnifiedTopology: true
             }
         }
     }
