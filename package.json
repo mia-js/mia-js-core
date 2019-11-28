@@ -7,7 +7,7 @@
     "middleware",
     "framework"
   ],
-  "version": "2.5.7",
+  "version": "2.6.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/7factory/mia-js-core.git"
@@ -16,7 +16,7 @@
     "agentkeepalive": "2.2.0",
     "async": "0.2.10",
     "body-parser": "1.18.2",
-    "bson": ">=1.0.5",
+    "bson": "4.0.1",
     "compression": "1.7.1",
     "cron": "1.4.1",
     "express": "4.16.2",
@@ -28,7 +28,7 @@
     "ip": "1.1.5",
     "lodash": "4.17.15",
     "memcached": "2.2.2",
-    "mongodb": "3.0.1",
+    "mongodb": "3.3.4",
     "morgan": "1.9.1",
     "node-jsx": "0.13.3",
     "object-hash": "0.5.0",
