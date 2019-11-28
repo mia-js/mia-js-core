@@ -1,3 +1,6 @@
+## 2.5.7 (November 28, 2019)
+* Increased default dead server interval
+
 ## 2.5.6 (November 27, 2019)
 * Moved dead server interval setting (cron jobs) to environment configuration
 * Added debug log to doHeartbeat func
