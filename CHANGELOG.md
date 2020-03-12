@@ -1,3 +1,8 @@
+## 2.7.0 (March 11, 2020)
+* Preconditions: Added new validator "allowMultiple"
+* Return server object on MiaJs.start()
+* Changed all errors to MiaError
+
 ## 2.6.1 (January 27, 2020)
 * Allow 0 in schema for "allow" and "deny"
 
