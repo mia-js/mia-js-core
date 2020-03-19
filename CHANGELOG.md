@@ -1,3 +1,6 @@
+## 2.7.1 (March 18, 2020)
+* MiaError: Stringify errors as message in case there are multiple
+
 ## 2.7.0 (March 11, 2020)
 * Preconditions: Added new validator "allowMultiple"
 * Return server object on MiaJs.start()
