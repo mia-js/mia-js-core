@@ -1,3 +1,6 @@
+## 2.7.2 (March 25, 2020)
+* MiaError: Keep original errors stack trace if available
+
 ## 2.7.1 (March 18, 2020)
 * MiaError: Stringify errors as message in case there are multiple
 
