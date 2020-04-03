@@ -1,3 +1,6 @@
+## 2.7.3 (April 3, 2020)
+* Request module v2: Fixed timeout errors not shown
+
 ## 2.7.2 (March 25, 2020)
 * MiaError: Keep original errors stack trace if available
 
