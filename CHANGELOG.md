@@ -1,3 +1,6 @@
+## 2.7.4 (April 8, 2020)
+* Bugfix cronManagerJob not started without throwing error when non cron .js file in cron folder
+
 ## 2.7.3 (April 3, 2020)
 * Request module v2: Fixed timeout errors not shown
 
