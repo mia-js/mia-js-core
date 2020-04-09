@@ -1,3 +1,6 @@
+## 2.7.5 (April 9, 2020)
+* Fixed mem leak in request module
+
 ## 2.7.4 (April 8, 2020)
 * Bugfix cronManagerJob not started without throwing error when non cron .js file in cron folder
 
