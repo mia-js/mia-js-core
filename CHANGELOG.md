@@ -1,3 +1,6 @@
+## 2.7.7 (April 14, 2020)
+* Reset request.v2 to mia-js-core 2.7.2 version due to mem leak
+
 ## 2.7.6 (April 14, 2020)
 * Added timeout event listener to request module again
 
