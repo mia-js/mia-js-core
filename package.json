@@ -7,7 +7,7 @@
     "middleware",
     "framework"
   ],
-  "version": "2.7.7",
+  "version": "2.7.8",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/7factory/mia-js-core.git"
@@ -40,7 +40,7 @@
     "underscore.string": "3.3.5",
     "util": "0.10.3",
     "vhost": "3.0.2",
-    "webpack": "4.5.0",
+    "webpack": "^4.42.1",
     "webpack-dev-middleware": "3.1.0",
     "webpack-hot-middleware": "2.21.2",
     "webpack-node-externals": "1.6.0",
