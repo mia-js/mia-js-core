@@ -1,3 +1,6 @@
+## 2.7.6 (April 14, 2020)
+* Added timeout event listener to request module again
+
 ## 2.7.5 (April 9, 2020)
 * Fixed mem leak in request module
 
