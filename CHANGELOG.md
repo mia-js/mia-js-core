@@ -1,3 +1,6 @@
+## 2.7.9 (June 8, 2020)
+* Added support for application/x-www-form-urlencoded in Swagger
+
 ## 2.7.8 (April 14, 2020)
 * NPM audit
 
