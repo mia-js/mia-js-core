@@ -1,3 +1,6 @@
+## 2.8.1 (August 19, 2020)
+* ModelValidator: Bugfix un-/plain object structures for complex objects
+
 ## 2.8.0 (July 14, 2020)
 * Preconditions: Added new validators "integer" and "safeInteger" 
 
