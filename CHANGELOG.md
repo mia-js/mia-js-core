@@ -1,3 +1,7 @@
+## 2.8.2 (December 28, 2020)
+* Added EmbedModel without database integration for simple Model functionalities to use in conjunction with BaseModels
+* Changed startup order so projects get initialized before routes
+
 ## 2.8.1 (August 19, 2020)
 * ModelValidator: Bugfix un-/plain object structures for complex objects
 
