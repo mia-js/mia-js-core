@@ -1,3 +1,6 @@
+## 2.8.3 (January 08, 2021)
+* Bugfix modelsvalidator when array with null value given
+
 ## 2.8.2 (December 28, 2020)
 * Added EmbedModel without database integration for simple Model functionalities to use in conjunction with BaseModels
 * Changed startup order so projects get initialized before routes
