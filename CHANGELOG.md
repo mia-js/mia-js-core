@@ -1,3 +1,7 @@
+## 2.8.4 (January 15, 2021)
+* Fixed check for duplicate routes in RoutesHandler
+* Made RoutesHandlers convertMethod() function available for the world
+
 ## 2.8.3 (January 08, 2021)
 * Bugfix modelsvalidator when array with null value given
 
