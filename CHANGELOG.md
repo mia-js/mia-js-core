@@ -1,3 +1,6 @@
+## 2.8.5 (January 26, 2021)
+* Removed EmbedModel in favour of enable/disable Models
+
 ## 2.8.4 (January 15, 2021)
 * Fixed check for duplicate routes in RoutesHandler
 * Made RoutesHandlers convertMethod() function available for the world
