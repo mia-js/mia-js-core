@@ -1,3 +1,6 @@
+## 2.8.6 (January 27, 2021)
+* Send header origin as CORS access-control-allow-origin when defined as * in routes config
+
 ## 2.8.5 (January 26, 2021)
 * Removed EmbedModel in favour of enable/disable Models
 
