@@ -1,3 +1,6 @@
+## 2.8.7 (February 10, 2021)
+* Ensure indexes on BaseModels synchronously instead of asynchronously
+
 ## 2.8.6 (January 27, 2021)
 * Send header origin as CORS access-control-allow-origin when defined as * in routes config
 
