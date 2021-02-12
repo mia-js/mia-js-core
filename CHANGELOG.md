@@ -1,3 +1,6 @@
+## 2.8.2 (February 12, 2021)
+* Removed unnecessary log output in request module v2
+
 ## 2.8.7 (February 10, 2021)
 * Ensure indexes on BaseModels synchronously instead of asynchronously
 
