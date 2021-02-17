@@ -1,4 +1,7 @@
-## 2.8.2 (February 12, 2021)
+## 2.8.9 (February 17, 2021)
+* Fixed HMR Windows compatibility
+
+## 2.8.8 (February 12, 2021)
 * Removed unnecessary log output in request module v2
 
 ## 2.8.7 (February 10, 2021)
