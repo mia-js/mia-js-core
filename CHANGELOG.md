@@ -1,3 +1,7 @@
+## 2.9.0 (May 27, 2021)
+* Upgraded ioredis package from 4.11.1 to 4.11.2
+* Implemented environment config parameter to enable/disable MongoDB strict mode on collections (listCollections)
+
 ## 2.8.9 (February 17, 2021)
 * Fixed HMR Windows compatibility
 
