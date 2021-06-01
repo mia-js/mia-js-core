@@ -1,3 +1,6 @@
+## 2.9.1 (June 1, 2021)
+* Reduced startup logging for "info" level
+
 ## 2.9.0 (May 27, 2021)
 * Upgraded ioredis package from 4.11.1 to 4.11.2
 * Implemented environment config parameter to enable/disable MongoDB strict mode on collections (listCollections)
