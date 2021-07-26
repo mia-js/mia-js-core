@@ -1,3 +1,6 @@
+## 2.9.2 (July 26, 2021)
+* Enabled "indexOptions" on compound and text indexes in BaseModel
+
 ## 2.9.1 (June 1, 2021)
 * Reduced startup logging for "info" level
 
