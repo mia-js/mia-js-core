@@ -1,3 +1,6 @@
+## 2.9.3 (August 11, 2021)
+* Set page title of swagger documentation according to environment title
+
 ## 2.9.2 (July 26, 2021)
 * Enabled "indexOptions" on compound and text indexes in BaseModel
 
