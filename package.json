@@ -7,7 +7,7 @@
     "middleware",
     "framework"
   ],
-  "version": "2.9.2",
+  "version": "2.9.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/7factory/mia-js-core.git"
