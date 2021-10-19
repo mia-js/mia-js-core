@@ -1,3 +1,6 @@
+## 2.9.4 (October 19, 2021)
+* Fixed bug in ModelValidator
+
 ## 2.9.3 (August 11, 2021)
 * Set page title of swagger documentation according to environment title
 
