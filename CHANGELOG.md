@@ -1,3 +1,6 @@
+## 2.9.5 (October 26, 2021)
+* Auto remove non existing crons from cronJobExecution collection
+
 ## 2.9.4 (October 19, 2021)
 * Fixed bug in ModelValidator
 
