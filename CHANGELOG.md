@@ -1,3 +1,6 @@
+## 2.9.6 (November 16, 2021)
+* Added auto remove crons condition
+
 ## 2.9.5 (October 26, 2021)
 * Auto remove non existing crons from cronJobExecution collection
 
