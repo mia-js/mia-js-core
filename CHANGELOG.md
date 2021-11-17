@@ -1,3 +1,6 @@
+## 2.9.7 (November 17, 2021)
+* Another change to auto remove crons
+
 ## 2.9.6 (November 16, 2021)
 * Added auto remove crons condition
 
