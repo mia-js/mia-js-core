@@ -1,3 +1,6 @@
+## 2.9.8 (December 1st, 2021)
+* Added Cache-Control header (60 secs) to CORS preflight requests
+
 ## 2.9.7 (November 17, 2021)
 * Another change to auto remove crons
 
