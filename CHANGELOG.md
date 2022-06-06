@@ -1,3 +1,6 @@
+## 2.9.8 (June 6st, 2022)
+* Added methods GET, POST, PUT, DELETE, OPTIONS to CORS preflight call for OPTIONS
+
 ## 2.9.7 (November 17, 2021)
 * Another change to auto remove crons
 
