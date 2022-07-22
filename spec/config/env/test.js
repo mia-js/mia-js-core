@@ -35,14 +35,13 @@ module.exports = {
         miaCoreTest: {
             url: 'mongodb://localhost:27017/miaCoreTest',
             options: {
-                w: 1,
+                writeConcern: {w: 1}, // write acknowledgement only from the standalone/primary
                 poolSize: 15,
                 keepAlive: true,
                 keepAliveInitialDelay: 1,
                 noDelay: true,
                 connectTimeoutMS: 0,
                 socketTimeoutMS: 0,
-                autoReconnect: true,
                 useUnifiedTopology: true
             }
         }
