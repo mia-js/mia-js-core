@@ -1,3 +1,9 @@
+## 2.9.9 (July 22, 2022)
+* Upgraded mongodb package (driver) from v3.3.4 to latest legacy v3.7.3
+* Removed `mongoStrictMode` env file config parameter
+* Removed other deprecations
+* Added recommended nodejs and npm versions to package.json 
+
 ## 2.9.8 (June 6st, 2022)
 * Added methods GET, POST, PUT, DELETE, OPTIONS to CORS preflight call for OPTIONS
 
