@@ -1,3 +1,6 @@
+## 2.9.10 (November 15, 2022)
+* Refactored BaseModel to reduce listCollections MDB queries
+
 ## 2.9.9 (July 22, 2022)
 * Upgraded mongodb package (driver) from v3.3.4 to latest legacy v3.7.3
 * Removed `mongoStrictMode` env file config parameter
