@@ -2,7 +2,7 @@ module.exports = {
     /*title: '7TV Middleware API (Test)',
     description: 'API documentation',
     version: '1.0',*/
-    logLevel: 'warn',
+    logLevel: 'warn', // none, fatal, error, warn, info, debug, trace
     /*server: {
         http: {
             port: 4000
