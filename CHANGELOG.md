@@ -1,3 +1,8 @@
+## 2.9.11 (November 16, 2022)
+* Refactored BaseModels collection() function to return MDB collection always
+* Prevent MongoError: ns not found on collection drop
+* Implemented functionality to create new collections on server startup
+
 ## 2.9.10 (November 15, 2022)
 * Refactored BaseModel to reduce listCollections MDB queries
 
