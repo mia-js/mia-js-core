@@ -1,3 +1,6 @@
+## 2.9.12 (November 28, 2022)
+* Skip disabled Models when creating new collections on server startup
+
 ## 2.9.11 (November 16, 2022)
 * Refactored BaseModels collection() function to return MDB collection always
 * Prevent MongoError: ns not found on collection drop
