@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>%PAGE_TITLE%</title>
+    <meta name="description" content="%PAGE_DESCRIPTION_META%"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700"
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
@@ -449,7 +450,7 @@
     </defs>
 </svg>
 
-<div id="swagger-ui" class="api-platform"></div>
+<div id="swagger-ui" class="api-platform">%PAGE_DESCRIPTION%</div> <!-- shows page description for bots and during loading -->
 
 <script src="./swagger-ui-bundle.js"></script>
 <script src="./swagger-ui-standalone-preset.js"></script>

@@ -1,3 +1,7 @@
+## 2.9.13 (March 1, 2023)
+* Fixed bug with missing function in mongoAdapter
+* Added ability to have machine-readable page description on Swagger docs
+
 ## 2.9.12 (November 28, 2022)
 * Skip disabled Models when creating new collections on server startup
 
